@@ -1,4 +1,4 @@
-name: .NET Core
+name: .NET 5 CI with Tests
 
 on:
   push:
@@ -9,7 +9,7 @@ on:
 jobs:
   build:
 
-    runs-on: Windows Server 2019
+    runs-on: windows-latest
 
     steps:
     - uses: actions/checkout@v2
